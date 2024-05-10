@@ -1,2 +1,2 @@
-# Image-Caption-Generation
-This project will generate the captions for a given input image. Implemented this model using CNN for learning image features and LSTM for text analysis.
+# Image-Caption and Audio Generation
+This Project's aim to understand the image which is fed to it, recognise and give an audio description. This project is targetted towards blind people. This project is very helpfull for the people with impaired visuals as this menthod helps them listen to the text which makes them to understand the context of the image. When the user select's an image to be read in the local hosted website, the image then gets converted to a set of features which is then fed into a neural network that forms a sentence upon analysing the features. Then we use pyttsx module to convert the obtained sentence to an audio clip. 
